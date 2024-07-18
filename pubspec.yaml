@@ -22,4 +22,20 @@ flutter:
 
   assets:
     - assets/download.jpeg
-
+    - assets/section1.jpeg
+    - assets/section2.jpeg
+    - assets/section3.jpeg
+    # - assets/section4.jpg
+    - assets/education2.jpg
+    - assets/education3.jpg
+    - assets/education4.jpeg
+    - assets/tech2.jpg
+    - assets/tech3.jpg
+    - assets/tech4.jpeg
+    - assets/sport1.jpg
+    - assets/sport3.jpg
+    - assets/sport3.jpg
+    - assets/sport4.jpg
+    - assets/culture2.jpg
+    - assets/culture2.jpg
+    - assets/culture4.jpg

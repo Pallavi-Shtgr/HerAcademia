@@ -7,7 +7,7 @@ class JobsPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Jobs', style: TextStyle(color: Colors.white)),
+        title: const Text('Jobs', style: TextStyle(color: Color.fromARGB(255, 19, 18, 18))),
         centerTitle: true,
         backgroundColor: Colors.black,
         iconTheme: const IconThemeData(color: Colors.white), // Ensure back icon is white

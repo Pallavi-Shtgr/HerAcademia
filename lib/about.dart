@@ -7,7 +7,7 @@ class AboutPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('About', style: TextStyle(color: Colors.white)),
+        title: const Text('About', style: TextStyle(color: Color.fromARGB(255, 26, 25, 25))),
         centerTitle: true,
         backgroundColor: Colors.black,
         iconTheme: const IconThemeData(color: Colors.white), // Ensure back icon is white

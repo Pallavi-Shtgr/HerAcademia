@@ -7,7 +7,7 @@ class LearnPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Learn', style: TextStyle(color: Colors.white)),
+        title: const Text('Learn', style: TextStyle(color: Color.fromARGB(255, 0, 0, 0))),
         centerTitle: true,
         backgroundColor: Colors.black,
         iconTheme: const IconThemeData(color: Colors.white), // Ensure back icon is white

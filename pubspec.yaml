@@ -11,6 +11,8 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.6
+  url_launcher: ^6.0.0
+
 
 dev_dependencies:
   flutter_test:
@@ -26,6 +28,7 @@ flutter:
     - assets/section2.jpeg
     - assets/section3.jpeg
     # - assets/section4.jpg
+    - assets/github.jpeg
     - assets/education2.jpg
     - assets/education3.jpg
     - assets/education4.jpeg

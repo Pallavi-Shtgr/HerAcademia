@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       title: 'HerAcademeia',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Color.fromARGB(159, 29, 5, 107)),
-        scaffoldBackgroundColor:Color.fromARGB(159, 29, 5, 107), // Set the background color to dark purple
+        scaffoldBackgroundColor: Color.fromARGB(159, 29, 5, 107), // Set the background color to dark purple
         useMaterial3: true,
         appBarTheme: const AppBarTheme(
           backgroundColor: Colors.black,
@@ -60,13 +60,13 @@ class _MainPageState extends State<MainPage> {
       case 2:
         Navigator.push(
           context,
-          MaterialPageRoute(builder: (context) => const LoginPage()),
+          MaterialPageRoute(builder: (context) => const LearnPage()),
         );
         break;
       case 3:
         Navigator.push(
           context,
-          MaterialPageRoute(builder: (context) => const LearnPage()),
+          MaterialPageRoute(builder: (context) => const LoginPage()),
         );
         break;
     }
@@ -105,7 +105,7 @@ class _MainPageState extends State<MainPage> {
               ),
         ),
         child: BottomNavigationBar(
-          backgroundColor: const Color.fromARGB(255, 244, 238, 238), // Set BottomNavigationBar color to black
+          backgroundColor: const Color.fromARGB(255, 244, 238, 238), // Set BottomNavigationBar color
           items: const <BottomNavigationBarItem>[
             BottomNavigationBarItem(
               icon: Icon(Icons.home, color: Color.fromARGB(255, 12, 12, 12)),
@@ -116,12 +116,12 @@ class _MainPageState extends State<MainPage> {
               label: 'About',
             ),
             BottomNavigationBarItem(
-              icon: Icon(Icons.work, color: Color.fromARGB(255, 18, 17, 17)),
-              label: 'Job',
+              icon: Icon(Icons.school, color: Color.fromARGB(255, 7, 7, 7)), // Changed icon to match Learn page
+              label: 'Learn',
             ),
             BottomNavigationBarItem(
-              icon: Icon(Icons.school, color: Color.fromARGB(255, 7, 7, 7)),
-              label: 'Learn',
+              icon: Icon(Icons.work, color: Color.fromARGB(255, 18, 17, 17)), // Moved to the last
+              label: 'Job',
             ),
           ],
           currentIndex: _selectedIndex,
@@ -133,4 +133,3 @@ class _MainPageState extends State<MainPage> {
     );
   }
 }
-

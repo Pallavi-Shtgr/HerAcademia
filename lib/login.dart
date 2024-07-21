@@ -25,30 +25,85 @@ class _LoginPageState extends State<LoginPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Login', style: TextStyle(color: Color.fromARGB(255, 12, 12, 12))),
+        title: const Text(
+          'Login',
+          style: TextStyle(color: Color.fromARGB(255, 241, 237, 237)),
+        ),
         centerTitle: true,
-        backgroundColor: Colors.black,
-        iconTheme: const IconThemeData(color: Colors.white), // Ensure back icon is white
+        backgroundColor: Colors.black, // Set the app bar color to black
       ),
-      body: Padding(
-        padding: const EdgeInsets.all(16.0),
-        child: Column(
-          children: [
-            TextField(
-              controller: _usernameController,
-              decoration: const InputDecoration(labelText: 'Username'),
-            ),
-            TextField(
-              controller: _passwordController,
-              decoration: const InputDecoration(labelText: 'Password'),
-              obscureText: true,
-            ),
-            const SizedBox(height: 20),
-            ElevatedButton(
-              onPressed: _login,
-              child: const Text('Login'),
-            ),
-          ],
+      body: Center(
+        child: SingleChildScrollView(
+          padding: const EdgeInsets.symmetric(horizontal: 32.0),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              const Text(
+                'Welcome Back!',
+                style: TextStyle(
+                  fontSize: 24,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.white, // Change text color to white
+                ),
+              ),
+              const SizedBox(height: 16),
+              TextField(
+                controller: _usernameController,
+                style: const TextStyle(color: Colors.white), // Set text color to white
+                decoration: InputDecoration(
+                  labelText: 'Username',
+                  labelStyle: const TextStyle(color: Colors.white), // Set label color to white
+                  border: OutlineInputBorder(
+                    borderRadius: BorderRadius.circular(12.0),
+                  ),
+                  enabledBorder: OutlineInputBorder(
+                    borderSide: const BorderSide(color: Colors.white),
+                    borderRadius: BorderRadius.circular(12.0),
+                  ),
+                  focusedBorder: OutlineInputBorder(
+                    borderSide: const BorderSide(color: Colors.white),
+                    borderRadius: BorderRadius.circular(12.0),
+                  ),
+                ),
+              ),
+              const SizedBox(height: 16),
+              TextField(
+                controller: _passwordController,
+                style: const TextStyle(color: Colors.white), // Set text color to white
+                decoration: InputDecoration(
+                  labelText: 'Password',
+                  labelStyle: const TextStyle(color: Colors.white), // Set label color to white
+                  border: OutlineInputBorder(
+                    borderRadius: BorderRadius.circular(12.0),
+                  ),
+                  enabledBorder: OutlineInputBorder(
+                    borderSide: const BorderSide(color: Colors.white),
+                    borderRadius: BorderRadius.circular(12.0),
+                  ),
+                  focusedBorder: OutlineInputBorder(
+                    borderSide: const BorderSide(color: Colors.white),
+                    borderRadius: BorderRadius.circular(12.0),
+                  ),
+                ),
+                obscureText: true,
+              ),
+              const SizedBox(height: 24),
+              ElevatedButton(
+                onPressed: _login,
+                style: ElevatedButton.styleFrom(
+                  padding: const EdgeInsets.symmetric(horizontal: 40.0, vertical: 16.0),
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(12.0),
+                  ),
+                  backgroundColor: const Color.fromARGB(255, 254, 251, 251), // Change button color
+                ),
+                child: const Text(
+                  'Login',
+                  style: TextStyle(fontSize: 16),
+                ),
+              ),
+            ],
+          ),
         ),
       ),
     );

@@ -12,6 +12,9 @@ dependencies:
     sdk: flutter
   cupertino_icons: ^1.0.6
   url_launcher: ^6.0.0
+  font_awesome_flutter: ^10.1.0 
+  
+  
 
 
 dev_dependencies:
@@ -42,3 +45,4 @@ flutter:
     - assets/culture2.jpg
     - assets/culture2.jpg
     - assets/culture4.jpg
+    - assets/logo.jpeg

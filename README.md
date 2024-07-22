@@ -1,6 +1,6 @@
 # First-Flutter
 #HerAcademia
-A new Flutter project.
+A new Flutter project
 
 ## Getting Started
 This project is a starting point for a Flutter application.
@@ -22,6 +22,7 @@ Solution through our app:
 
 2. Self-Assessment Tools:
 
+
 3. Mentorship and Support:
 
 4. Comprehensive Resource Library:
@@ -33,11 +34,31 @@ git clone https://github.com/Sandhya015/HerAcademia.git
 cd women_app
 
 flutter run
- 
+
+   
+3. Mentorship and Support:
+   
+4. Comprehensive Resource Library:
+
+Project Setup:
+Download VsCode 
+
+Install Flutter from official website
+
+Android-Studio emulator setting for previewing the project
+
 Basic Configuration
 Flutter SDK: Download and set up the Flutter SDK from the official website.
 Dart SDK: The Dart SDK is included with the Flutter SDK.
 Environment Variables: Add the Flutter SDK to your system’s PATH.
+
+Commands to run the Project:
+
+git clone https://github.com/Sandhya015/HerAcademia.git
+
+cd women_app
+
+flutter run
 
 SnapShots:
 

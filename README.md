@@ -49,7 +49,7 @@ Dart SDK: The Dart SDK is included with the Flutter SDK.
 Environment Variables: Add the Flutter SDK to your system’s PATH.
 ---------------------------
 SnapShots:
---------------------------
+
 ![Screenshot 2024-07-22 231454](https://github.com/user-attachments/assets/ebabe99a-cd23-41ab-8ad2-ae9a051973da)
 
 

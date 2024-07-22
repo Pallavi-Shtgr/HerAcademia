@@ -30,8 +30,8 @@ Solution through our app:
 4. Comprehensive Resource Library:
    - Her Academia will offer a vast library of educational resources, including video tutorials, articles, and interactive exercises, covering a wide range of STEM topics. This ensures that users have access to high-quality educational materials at their fingertips.
 ----------------------------------------------------------------------  
-Installation and Setup:
-Visual Studio Code
+Installation and Setup: 
+Visual Studio Code 
 Install VS Code.
 Add the Flutter and Dart extensions from the Extensions Marketplace.
 Android Studio
@@ -49,8 +49,8 @@ Dart SDK: The Dart SDK is included with the Flutter SDK.
 Environment Variables: Add the Flutter SDK to your system’s PATH.
 
 SnapShots:
-------------------------------
-![Screenshot 2024-07-22 231454](https://github.com/user-attachments/assets/ebabe99a-cd23-41ab-8ad2-ae9a051973da)
+![Screenshot 2024-07-22 231454](https://github.com/user-attachments/assets/55068176-4483-4c40-b61e-7b129b4bc886)
+
 
 
 

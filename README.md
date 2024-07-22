@@ -40,11 +40,11 @@ Flutter SDK: Download and set up the Flutter SDK from the official website.
 Dart SDK: The Dart SDK is included with the Flutter SDK.
 Environment Variables: Add the Flutter SDK to your system’s PATH.
 
-Commands to run create the Project:
+Commands to run the Project:
 
-flutter create women_app
+git clone git@github.com:Sandhya015/HerAcademia.git
 
-Commands to run the project:
+cd women_app
 
 flutter run
 

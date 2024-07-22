@@ -22,25 +22,12 @@ Solution through our app:
 
 2. Self-Assessment Tools:
 
-
 3. Mentorship and Support:
 
-4. Comprehensive Resource Library:
-
-Basic setup to run the Project:
-
-git clone https://github.com/Sandhya015/HerAcademia.git
-
-cd women_app
-
-flutter run
-
-   
-3. Mentorship and Support:
-   
-4. Comprehensive Resource Library:
+4. Comprehensive Resource Library
 
 Project Setup:
+
 Download VsCode 
 
 Install Flutter from official website

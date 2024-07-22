@@ -30,7 +30,9 @@ Solution through our app:
 
 Project Setup:
 Download VsCode 
+
 Install Flutter from official website
+
 Android-Studio emulator setting for previewing the project
 
 Basic Configuration
@@ -39,9 +41,11 @@ Dart SDK: The Dart SDK is included with the Flutter SDK.
 Environment Variables: Add the Flutter SDK to your system’s PATH.
 
 Commands to run create the Project:
+
 flutter create women_app
 
 Commands to run the project:
+
 flutter run
 
 SnapShots:

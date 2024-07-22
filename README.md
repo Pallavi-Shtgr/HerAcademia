@@ -25,29 +25,35 @@ Solution through our app:
 3. Mentorship and Support:
 
 4. Comprehensive Resource Library
+5. 
+------------------------------------------
+Installation and Setup
+----------------------------------
+Visual Studio Code
+-Install VS Code.
+-Add the Flutter and Dart extensions from the Extensions Marketplace.
 
-Project Setup:
-
-Download VsCode 
-
-Install Flutter from official website
-
-Android-Studio emulator setting for previewing the project
-
+Android Studio
+-Install Android Studio.
+- During setup, choose the Flutter and Dart plugins.
+- --------------------------------------------------------
 Basic Configuration
+---------------------------------------------
 Flutter SDK: Download and set up the Flutter SDK from the official website.
 Dart SDK: The Dart SDK is included with the Flutter SDK.
 Environment Variables: Add the Flutter SDK to your system’s PATH.
 
+------------------------------
 Commands to run the Project:
-
+----------------------------------
 git clone https://github.com/Sandhya015/HerAcademia.git
-
+-------------------------
 cd women_app
-
+-----------------------
 flutter run
-
+-------------------------------------------
 SnapShots:
+
 
 ![Screenshot 2024-07-22 231454](https://github.com/user-attachments/assets/ebabe99a-cd23-41ab-8ad2-ae9a051973da)
 
@@ -76,7 +82,6 @@ SnapShots:
 ![Screenshot 2024-07-22 232511](https://github.com/user-attachments/assets/367cde36-8f1e-40b5-812f-eda7227f7e0f)
 
 ![Screenshot 2024-07-22 232528](https://github.com/user-attachments/assets/ec4aa0e4-4e7f-48ca-8377-826fe0a9d4ad)
-
 
 ![Screenshot 2024-07-22 232541](https://github.com/user-attachments/assets/73c80773-9004-4248-9a2d-00a1aef21fde)
 

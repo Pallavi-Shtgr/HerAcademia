@@ -50,18 +50,8 @@ Environment Variables: Add the Flutter SDK to your system’s PATH.
 ---------------------------
 SnapShots:
 -----------------
+![Screenshot 2024-07-22 231454](https://github.com/user-attachments/assets/ebabe99a-cd23-41ab-8ad2-ae9a051973da)
 
-![Screenshot_20240722_083828](https://github.com/user-attachments/assets/d0d4ba1c-b75e-41d5-a0e5-ac48fd01476c)
-
-![Screenshot_20240722_082647](https://github.com/user-attachments/assets/9e9febd8-58f8-425e-b5f9-ef14bc36b3a4)
-
-![Screenshot_20240722_082657](https://github.com/user-attachments/assets/716af1bf-e935-4e18-adab-50830676251d)
-
-![Screenshot_20240722_082715](https://github.com/user-attachments/assets/8bd3408f-8625-414d-be20-a7c002f4fc09)
-
-![Screenshot_20240722_082725](https://github.com/user-attachments/assets/a45e4cd9-b609-4c5a-aaad-42f981da5be2)
-
-![Screenshot_20240722_082739](https://github.com/user-attachments/assets/bbafe76f-4bac-4383-bc2e-45af0e1fdb4a)
 
 
 

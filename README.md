@@ -42,7 +42,7 @@ Environment Variables: Add the Flutter SDK to your system’s PATH.
 
 Commands to run the Project:
 
-git clone git@github.com:Sandhya015/HerAcademia.git
+git clone https://github.com/Sandhya015/HerAcademia.git
 
 cd women_app
 
